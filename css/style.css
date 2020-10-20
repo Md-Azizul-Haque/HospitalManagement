@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+img{
+    vertical-align: middle
+}
+uo,ol{
+    list-style-type: none;
+}
+a, a:hover{
+    
+    color: black;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,input,button,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+p{
+   font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+/*headerpar start */
+#headerpart{
+    background-color:#1b2f5b;
+    
+}
+#headerpart .heading_left .p-3{
+    color: antiquewhite;
+}
+#headerpart .heading_right .p-3{
+    color: antiquewhite;
+}
+/*headerpart end*/
+ /* nav part start */
+.navbar-light .navbar-nav .nav-link{
+  padding: 10px 15px;
+    transition: all linear .3s; 
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  background:#1b2f5b;
+    color:aliceblue
+}
+/* nav part end */
+
+/* article_part start*/
+#article_part{
+    padding-top: 60px;
+    background: #ffece6
+    
+}
+.article_content{
+    border-bottom: 2px solid  black;
+}
+#article_part .article_content
+h2{
+    font-family: 'PT Sans', sans-serif;
+     padding-bottom: 30px;
+    font-size: 38px;
+    font-weight: 900;
+    color: #cc0000;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    
+}
+#article_part .article_content
+p{
+    font-size: 16px;
+    color: black;
+    padding-bottom: 30px;
+}
+/* article_part end*/
+
+/* service_part startr*/
+
+#service_part{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+#service_part .service_heading h2{
+    font-family: 'PT Sans', sans-serif;
+     padding-bottom: 30px;
+    font-size: 34px;
+    font-weight: 900;
+    color: #001a33;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+#service_part .ser_menu h3{
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #001a33;
+    text-transform: uppercase;
+    
+}
+#service_part .ser_menu img{
+    transition:  all ease 1s;
+}
+#service_part .ser_menu p{
+    padding-bottom: 20px;
+}
+#service_part .ser_menu a{
+    padding: 10px 25px;
+    border: 1px solid #4747d1;
+    border-radius: 21px;
+    transition: all ease 1s;
+    
+}
+#service_part .ser_menu a:hover{
+    background: #7070db;
+    color: #ffffff;
+}
+#service_part .ser_menu img:hover{
+    transform: scale(1.2);
+}
+
+/* service_part end*/
+
+/* footer part start */
+#footer{
+ padding:30px;
+  background-color:#243342;
+}
+#footer .footer_left p{
+    padding-top: 30px;
+    color: aliceblue;
+}
